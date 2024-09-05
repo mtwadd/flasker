@@ -31,7 +31,7 @@ def user(name):
     print("Hello " + name + " !!")
     return render_template("user.html", user_name=name)
 
-# custom Error Pages
+# custom Error Pages Thing
 #invalid URL
 @app.errorhandler(404)
 def page_not_found(e):
